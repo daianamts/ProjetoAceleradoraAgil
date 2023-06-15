@@ -1,0 +1,115 @@
+body{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+   
+}
+.menu{
+    
+    height:500px;
+    width: 340px;
+    
+    
+    
+}
+
+ .menu-imagem img{
+    background-color: rgb(231, 232, 235);
+    width: 130px;
+    margin-left: 80px;
+    border-style: solid;
+    border-radius: 90px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+
+.menu-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-paragrafo{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.menu-navegacao li {
+    margin-top: 18px;
+    text-align: center;
+    gap: 13px;
+   
+}
+
+.menu-navegacao a{
+    font-size: 14px;
+    font-style: italic;
+    color: black;
+}
+
+.tarefas-principal{
+    margin-left: 90px;
+}
+.tarefas{
+    background-color: rgb(231, 232, 235);
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height:auto;
+   
+    
+}
+
+.tarefas-titulo{
+    background-color: rgb(231, 232, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   text-align: center;
+    height: 70px;
+    padding-top: 30px;
+}
+
+th{
+    font-size: 29px;
+    
+}
+
+.tarefas-dia{
+    background-color: rgb(243, 245, 252);
+    margin:30px 0px 30px 30px;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    border-right: 2px solid;
+
+}
+
+
+.tarefas-noite{
+    margin:30px 30px 30px 0px;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    background-color: rgb(243, 245, 252);
+    
+}
+
+ol{
+    list-style:inside;
+}
+
+a:hover{
+    background-color: rgb(200, 200, 201);
+}

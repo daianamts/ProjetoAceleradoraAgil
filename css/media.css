@@ -1,0 +1,33 @@
+@media screen and (max-width:760px){
+
+    main{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+.tarefas-principal{
+    margin: auto;
+}
+
+
+.tarefas{
+    flex-direction: column;
+    width: auto;
+}
+
+.tarefas-dia{
+    margin: 30px 30px 30px 30px;
+    border-right: none;
+}
+.tarefas-noite{
+    
+    margin:30px 30px 30px 30px;
+}
+
+.menu-imagem img{
+
+margin-left: 105px;
+
+}
+}
